@@ -1,3 +1,29 @@
+## rcl_logging (jazzy) - 3.1.0-3
+
+The packages in the `rcl_logging` repository were released into the `jazzy` distro by running `/home/z572/gits/revyos-ros/venv/bin/bloom-release -r jazzy rcl_logging --override-release-repository-push-url git@github.com:revyos-ros/rcl_logging-release.git --non-interactive` on `Wed, 12 Jun 2024 01:31:51 -0000`
+
+These packages were released:
+- `rcl_logging_interface`
+- `rcl_logging_noop`
+- `rcl_logging_spdlog`
+
+Version of package(s) in repository `rcl_logging`:
+
+- upstream repository: https://github.com/ros2/rcl_logging.git
+- release repository: https://github.com/revyos-ros/rcl_logging-release.git
+- rosdistro version: `3.1.0-2`
+- old version: `3.1.0-2`
+- new version: `3.1.0-3`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## rcl_logging (rolling) - 3.2.0-1
 
 The packages in the `rcl_logging` repository were released into the `rolling` distro by running `/usr/bin/bloom-release rcl_logging --rosdistro rolling --non-interactive` on `Fri, 26 Apr 2024 16:56:48 -0000`
