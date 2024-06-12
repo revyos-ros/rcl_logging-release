@@ -1,0 +1,12 @@
+Source: ros-jazzy-rcl-logging-noop
+Section: misc
+Priority: optional
+Maintainer: Chris Lalancette <clalancette@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), python3-empy, ros-jazzy-ament-cmake-gmock <!nocheck>, ros-jazzy-ament-cmake-gtest <!nocheck>, ros-jazzy-ament-cmake-ros, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-launch-testing <!nocheck>, ros-jazzy-rcl-logging-interface, ros-jazzy-rcutils, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-rcl-logging-noop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-rcl-logging-interface, ros-jazzy-rcutils, ros-jazzy-ros-workspace
+Description: An rcl logger implementation that doesn't do anything with log messages.
